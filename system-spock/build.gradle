@@ -1,0 +1,16 @@
+group 'com.polycom.sqa'
+version '0.0.1'
+
+apply plugin: 'groovy'
+
+sourceCompatibility = 1.5
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.relevantcodes:extentreports:2.41.0'
+    compile 'org.codehaus.groovy:groovy-all:2.4.6'
+    compile 'org.spockframework:spock-core:1.0-groovy-2.4'
+}
