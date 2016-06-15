@@ -1,13 +1,10 @@
-package com.polycom.sqa
+package com.polycom
 
 import com.relevantcodes.extentreports.ExtentReports
 import com.relevantcodes.extentreports.ExtentTest
 import org.spockframework.runtime.AbstractRunListener
-import org.spockframework.runtime.IRunListener
 import org.spockframework.runtime.extension.IGlobalExtension
-import org.spockframework.runtime.model.ErrorInfo
 import org.spockframework.runtime.model.FeatureInfo
-import org.spockframework.runtime.model.IterationInfo
 import org.spockframework.runtime.model.SpecInfo
 
 /**

@@ -1,9 +1,8 @@
-group 'com.polycom.sqa'
-version '0.0.1'
+group 'com.polycom'
+version '0.0.2'
 
 apply plugin: 'groovy'
-
-sourceCompatibility = 1.5
+apply plugin: 'maven-publish'
 
 repositories {
     mavenCentral()
@@ -13,4 +12,16 @@ dependencies {
     compile 'com.relevantcodes:extentreports:2.41.0'
     compile 'org.codehaus.groovy:groovy-all:2.4.6'
     compile 'org.spockframework:spock-core:1.0-groovy-2.4'
+}
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            from components.java
+        }
+    }
+
+    repositories {
+        mavenLocal()
+    }
 }

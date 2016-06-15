@@ -1,4 +1,4 @@
-package com.polycom.sqa
+package com.polycom
 
 import com.relevantcodes.extentreports.ExtentReports
 import com.relevantcodes.extentreports.ExtentTest
