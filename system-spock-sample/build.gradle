@@ -1,0 +1,13 @@
+group 'com.polycom'
+version '0.0.1'
+
+apply plugin: 'groovy'
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.polycom:system-spock:0.0.2'
+}
