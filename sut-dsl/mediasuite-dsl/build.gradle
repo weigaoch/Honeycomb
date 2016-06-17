@@ -1,0 +1,11 @@
+version = "0.0.1"
+
+dependencies {
+    compile 'com.polycom:dsl-base:0.0.1'
+    compile 'org.jodd:jodd-http:3.7.1'
+    compile 'com.google.code.gson:gson:2.7'
+    compile 'org.slf4j:slf4j-simple:1.7.21'
+    compile fileTree(dir: 'libs', include: '*.jar')
+}
+
+
